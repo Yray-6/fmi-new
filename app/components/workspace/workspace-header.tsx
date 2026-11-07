@@ -9,9 +9,11 @@ import { useSessionStore } from "@/lib/store/use-session-store";
 export function WorkspaceHeader({
   menuOpen,
   onMenu,
+  onClose,
 }: {
   menuOpen: boolean;
   onMenu: () => void;
+  onClose: () => void;
 }) {
   const { mounted, shown } = useSlide(menuOpen);
   const user = useSessionStore((state) => state.user);
@@ -26,7 +28,7 @@ export function WorkspaceHeader({
           type="button"
           className="fixed inset-0 z-0 lg:hidden"
           aria-label="Close navigation"
-          onClick={onMenu}
+          onClick={onClose}
         />
       ) : null}
       <div className="relative z-10 flex items-center gap-3 px-4 py-4 lg:hidden">
@@ -34,7 +36,7 @@ export function WorkspaceHeader({
           href="/overview"
           className="flex min-w-0 flex-1 items-center gap-2.5"
           onClick={() => {
-            if (menuOpen) onMenu();
+            if (menuOpen) onClose();
           }}
         >
           <img
@@ -53,12 +55,12 @@ export function WorkspaceHeader({
           aria-label="Account and security"
           className="flex size-[34px] shrink-0 items-center justify-center rounded-full bg-[#E8F7EC] text-sm font-semibold leading-[1.35] text-[#14271F]"
           onClick={() => {
-            if (menuOpen) onMenu();
+            if (menuOpen) onClose();
           }}
         >
           {initials}
         </Link>
-        <NotificationControl menuOpen={menuOpen} onMenu={onMenu} />
+        <NotificationControl menuOpen={menuOpen} onMenu={onClose} />
         <button
           type="button"
           className="inline-flex size-[35px] shrink-0 items-center justify-center"
@@ -76,12 +78,12 @@ export function WorkspaceHeader({
             shown ? "pointer-events-auto" : "pointer-events-none"
           }`}
         >
-          <MobileMenu shown={shown} onClose={onMenu} />
+          <MobileMenu shown={shown} onClose={onClose} />
         </div>
       ) : null}
 
       <div className="relative z-10 hidden h-[82px] items-center justify-end gap-[22px] px-8 lg:flex">
-        <NotificationControl menuOpen={menuOpen} onMenu={onMenu} />
+        <NotificationControl menuOpen={menuOpen} onMenu={onClose} />
 
         <div className="h-7 w-px shrink-0 bg-[#D9E5DD]" aria-hidden />
 

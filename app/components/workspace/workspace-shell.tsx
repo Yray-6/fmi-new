@@ -2,6 +2,7 @@
 
 import {
   Suspense,
+  useCallback,
   useEffect,
   useState,
   type ReactNode,
@@ -22,6 +23,8 @@ function CloseMenuOnNavigate({ onNavigate }: { onNavigate: () => void }) {
 
 export function WorkspaceShell({ children }: { children: ReactNode }) {
   const [menuOpen, setMenuOpen] = useState(false);
+  const closeMenu = useCallback(() => setMenuOpen(false), []);
+  const toggleMenu = useCallback(() => setMenuOpen((open) => !open), []);
 
   useEffect(() => {
     if (!menuOpen) return;
@@ -42,7 +45,7 @@ export function WorkspaceShell({ children }: { children: ReactNode }) {
   return (
     <div className="flex min-h-svh w-full min-w-0 flex-1 bg-white text-[#14271F]">
       <Suspense fallback={null}>
-        <CloseMenuOnNavigate onNavigate={() => setMenuOpen(false)} />
+        <CloseMenuOnNavigate onNavigate={closeMenu} />
       </Suspense>
 
       <div className="sticky top-0 hidden h-svh shrink-0 lg:block">
@@ -54,7 +57,8 @@ export function WorkspaceShell({ children }: { children: ReactNode }) {
       <div className="flex min-w-0 flex-1 flex-col">
         <WorkspaceHeader
           menuOpen={menuOpen}
-          onMenu={() => setMenuOpen((open) => !open)}
+          onMenu={toggleMenu}
+          onClose={closeMenu}
         />
         <main className="min-w-0 flex-1">{children}</main>
       </div>

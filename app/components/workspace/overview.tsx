@@ -1,7 +1,6 @@
 "use client";
 
 import { Suspense, type ReactNode } from "react";
-import { SiteFooter } from "../closing-sections";
 // import { AddFundsButton } from "./deposit-dialog";
 import { useOverview } from "@/hooks/use-overview";
 import { useSessionStore } from "@/lib/store/use-session-store";
@@ -602,10 +601,6 @@ export function Overview() {
             )}
           </Panel>
         </div>
-      </div>
-
-      <div className="lg:hidden">
-        <SiteFooter />
       </div>
     </div>
   );
