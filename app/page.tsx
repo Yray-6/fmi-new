@@ -100,7 +100,7 @@ export default function Home() {
               href="/login"
               className="rounded-lg bg-white px-6 py-2 text-base leading-6 text-accent shadow-[0px_2px_4px_-2px_rgba(255,255,255,0.05),0px_4px_6px_-1px_rgba(255,255,255,0.05)]"
             >
-              Register
+              Login
             </a>
           </header>
 
@@ -181,7 +181,7 @@ export default function Home() {
               href="/login"
               className="inline-flex h-10 w-24 items-center justify-center rounded-[5px] bg-white text-[10px] leading-4 text-accent"
             >
-              Register
+              Login
             </a>
           </header>
 
