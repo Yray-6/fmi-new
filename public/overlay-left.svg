@@ -1,0 +1,72 @@
+<svg width="1231" height="3164" viewBox="0 0 1231 3164" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.1">
+<g opacity="0.5">
+<g filter="url(#filter0_f_3147_8420)">
+<circle cx="510" cy="510" r="510" transform="matrix(1 0 0 -1 111 1253)" fill="#004829"/>
+</g>
+<g filter="url(#filter1_f_3147_8420)">
+<circle cx="510" cy="510" r="510" transform="matrix(1 0 0 -1 110 1180)" fill="white"/>
+</g>
+<g filter="url(#filter2_f_3147_8420)">
+<circle cx="510" cy="510" r="510" transform="matrix(1 0 0 -1 110 1120)" fill="#3CA8A5"/>
+</g>
+</g>
+<g filter="url(#filter3_f_3147_8420)">
+<circle cx="611" cy="2421" r="510" fill="#004829"/>
+</g>
+<g filter="url(#filter4_f_3147_8420)">
+<circle cx="610" cy="2494" r="510" fill="white"/>
+</g>
+<g filter="url(#filter5_f_3147_8420)">
+<circle cx="610" cy="2554" r="510" fill="#3CA8A5"/>
+</g>
+<g opacity="0.5" filter="url(#filter6_f_3147_8420)">
+<rect x="576" y="1120" width="34" height="860" fill="#09793B"/>
+</g>
+<g opacity="0.5" filter="url(#filter7_f_3147_8420)">
+<rect x="576" y="1120" width="34" height="860" fill="#0B99A9"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_3147_8420" x="11" y="133" width="1220" height="1220" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="50" result="effect1_foregroundBlur_3147_8420"/>
+</filter>
+<filter id="filter1_f_3147_8420" x="10" y="60" width="1220" height="1220" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="50" result="effect1_foregroundBlur_3147_8420"/>
+</filter>
+<filter id="filter2_f_3147_8420" x="10" y="0" width="1220" height="1220" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="50" result="effect1_foregroundBlur_3147_8420"/>
+</filter>
+<filter id="filter3_f_3147_8420" x="1" y="1811" width="1220" height="1220" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="50" result="effect1_foregroundBlur_3147_8420"/>
+</filter>
+<filter id="filter4_f_3147_8420" x="0" y="1884" width="1220" height="1220" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="50" result="effect1_foregroundBlur_3147_8420"/>
+</filter>
+<filter id="filter5_f_3147_8420" x="0" y="1944" width="1220" height="1220" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="50" result="effect1_foregroundBlur_3147_8420"/>
+</filter>
+<filter id="filter6_f_3147_8420" x="496" y="1040" width="194" height="1020" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="40" result="effect1_foregroundBlur_3147_8420"/>
+</filter>
+<filter id="filter7_f_3147_8420" x="496" y="1040" width="194" height="1020" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="40" result="effect1_foregroundBlur_3147_8420"/>
+</filter>
+</defs>
+</svg>
